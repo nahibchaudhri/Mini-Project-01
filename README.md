@@ -4,6 +4,30 @@
 ![Screenshot (3)](https://github.com/user-attachments/assets/b5aaf161-6da2-4c54-85de-cb59073391d5)
 
 ## 2. Step-by-step Configuration Guide
+_The Network__
+The diagram shows a network with two main subnets: 192.168.0.0/24 (the ISBA Lab
+LAN) and 172.16.0.0/16 (the UHail Data Center LAN).
+_Devices:_
+The devices include:
+_Server:_
+Web Server, DNS Server, Server2
+_Switches:_
+One switch connecting Fa0/1, Fa0/2, Fa0/3, and Fa0/4
+_Pc:_
+PC1, PC2, PC3, PC4
+_Others:_
+Smartphone, Laptop, Tablet PC, Access Point
+_Connections:_
+- The network has two separate subnets, with a few devices connecting them.
+- The ISBA Lab LAN has PCs connected to the switch through Fa0/1 and Fa0/2.
+- The UHail Data Center LAN has a web server, DNS server, and Server2 connected
+to the switch.
+- The Smartphone, Laptop, and Tablet PC are connected to the Access Point, which
+is on the ISBA Lab LAN.
+- There is a connection between the two subnets using Fa0 and Fa0/4, connecting the
+switch to the DNS Server.
+
+_Diagram of the network_
 
 ## 3. FAQ
 
