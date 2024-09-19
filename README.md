@@ -35,6 +35,16 @@ _Images of the Connection_ (ping command being used)
 ![Screenshot (5)](https://github.com/user-attachments/assets/6555062f-4a2d-4c39-bf8f-ec87f2eb251f) 
 
 _Image of simulation_
+![Screenshot (6)](https://github.com/user-attachments/assets/8bc28b82-597f-4061-8602-092479fae76d) 
+
+- The switches are important for providing connectivity to devices within the same LAN
+- The diagram shows that the switches do not provide connectivity between the two LANS.
+
+- The diagram presents a basic network setup with two separate subnets and devices
+connected through a switch. The layout highlights the importance of switches for
+local connectivity and how connections between subnets are handled separately.
+
+_HOW TO DO THIS MINI PROJECT_
 
 ## 3. FAQ
 
