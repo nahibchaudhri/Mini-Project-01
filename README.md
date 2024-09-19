@@ -32,6 +32,9 @@ _Diagram of the network_
 
 
 _Images of the Connection_ (ping command being used)
+![Screenshot (5)](https://github.com/user-attachments/assets/6555062f-4a2d-4c39-bf8f-ec87f2eb251f) 
+
+_Image of simulation_
 
 ## 3. FAQ
 
