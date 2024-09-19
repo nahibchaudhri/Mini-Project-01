@@ -4,7 +4,7 @@
 ![Screenshot (3)](https://github.com/user-attachments/assets/b5aaf161-6da2-4c54-85de-cb59073391d5)
 
 ## 2. Step-by-step Configuration Guide
-_The Network__
+_The Network_
 The diagram shows a network with two main subnets: 192.168.0.0/24 (the ISBA Lab
 LAN) and 172.16.0.0/16 (the UHail Data Center LAN).
 _Devices:_
@@ -65,29 +65,30 @@ might connect to FastEthernet0/0 on the switch).
   Servers: Connect each server to a different port on the switch.
 
  _ IP Addressing:_
-  UHail Data Center LAN (Router): Choose an IP address from the "Usable IPs" range (172.16.0.1 - 172.31.255.255).
-  Important: Use a subnet mask of 255.255.0.0 (subnet mask is not shown in your diagram).
-  Example: 172.16.1.1/255.255.0.0
-  ISBA Lab LAN (Switch): Choose an IP address from the "Usable IPs" range (192.168.0.1 - 192.168.0.254).
-  Important: Use a subnet mask of 255.255.255.0.
-  Example: 192.168.0.10/255.255.255.0
-  PCs and Servers: Assign IP addresses from their respective subnets, ensuring no IP
+- UHail Data Center LAN (Router): Choose an IP address from the "Usable IPs" range (172.16.0.1 - 172.31.255.255).
+- Important: Use a subnet mask of 255.255.0.0 (subnet mask is not shown in your diagram).
+- Example: 172.16.1.1/255.255.0.0
+- ISBA Lab LAN (Switch): Choose an IP address from the "Usable IPs" range (192.168.0.1 - 192.168.0.254).
+- Important: Use a subnet mask of 255.255.255.0.
+- Example: 192.168.0.10/255.255.255.0
+- PCs and Servers: Assign IP addresses from their respective subnets, ensuring no IP
 addresses are duplicated.
   _Connectivity:_
-  Router to Switch: Make sure the router and switch are connected and able to communicate.
-  Switch to Devices: All PCs and servers should be able to communicate with each other
+- Router to Switch: Make sure the router and switch are connected and able to communicate.
+- Switch to Devices: All PCs and servers should be able to communicate with each other
 through the switch.
 
 2) CONFIGURATION
-  Router: Configure your router to be a gateway for the ISBA Lab LAN.
-  Enable and configure NAT (Network Address Translation) on the router to allow devices on the ISBA Lab LAN to access the internet.
+- Router: Configure your router to be a gateway for the ISBA Lab LAN.
+- Enable and configure NAT (Network Address Translation) on the router to allow devices on the ISBA Lab LAN to access the internet.
   _Switch:_
-  VLANs: If you want to segment your network further, you could configure VLANs on your
-switch.
+- VLANs: If you want to segment your network further, you could configure VLANs on your
+  switch.
 
 3) TESTING
-  Ping: Use the ping command to test connectivity between devices.
-  Telnet: Use telnet (if allowed by your network setup) to test connection to servers    and the internet.
+  - Ping: Use the ping command to test connectivity between devices.
+  - Telnet: Use telnet (if allowed by your network setup) to test connection to 
+    servers and the internet.
 
 KEY CONCEPTS 
 - IP Addressing: Ensure all devices have unique IP addresses and use the correct subnet mask.
