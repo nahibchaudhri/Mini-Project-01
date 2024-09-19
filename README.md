@@ -64,7 +64,7 @@ might connect to FastEthernet0/0 on the switch).
   Switch: Connect your switch's ports (e.g., FastEthernet0/1, FastEthernet0/2, etc.) to your PCs and servers.
   Servers: Connect each server to a different port on the switch.
 
- _ IP Addressing:_
+ _IP Addressing:_
 - UHail Data Center LAN (Router): Choose an IP address from the "Usable IPs" range (172.16.0.1 - 172.31.255.255).
 - Important: Use a subnet mask of 255.255.0.0 (subnet mask is not shown in your diagram).
 - Example: 172.16.1.1/255.255.0.0
