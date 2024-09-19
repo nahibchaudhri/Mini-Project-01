@@ -28,6 +28,10 @@ is on the ISBA Lab LAN.
 switch to the DNS Server.
 
 _Diagram of the network_
+![Screenshot (4)](https://github.com/user-attachments/assets/1cc2956b-2775-43d7-ae7c-dad37236d960) 
+
+
+_Images of the Connection_ (ping command being used)
 
 ## 3. FAQ
 
