@@ -1,7 +1,7 @@
 ## Mini-Project-01
 
 ## 1. System Architecture Diagram
-
+https://github.com/nahibchaudhri/Mini-Project-01/issues/1#issue-2536726668 
 ## 2. Step-by-step Configuration Guide
 
 ## 3. FAQ
